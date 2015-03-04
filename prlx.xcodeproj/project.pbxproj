@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE5962C21A8E8D5D00653D93 /* hw.png in Resources */ = {isa = PBXBuildFile; fileRef = AE5962C11A8E8D5D00653D93 /* hw.png */; };
+		AEA062B91A8E7F9200EDF844 /* photo.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA062B81A8E7F9200EDF844 /* photo.png */; };
 		AEB7D2B01A8D5D3500DFED18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D2AF1A8D5D3500DFED18 /* main.m */; };
 		AEB7D2B31A8D5D3500DFED18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D2B21A8D5D3500DFED18 /* AppDelegate.m */; };
 		AEB7D2B61A8D5D3500DFED18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D2B51A8D5D3500DFED18 /* ViewController.m */; };
@@ -14,6 +16,8 @@
 		AEB7D2BB1A8D5D3500DFED18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEB7D2BA1A8D5D3500DFED18 /* Images.xcassets */; };
 		AEB7D2BE1A8D5D3500DFED18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEB7D2BC1A8D5D3500DFED18 /* LaunchScreen.xib */; };
 		AEB7D2CA1A8D5D3500DFED18 /* prlxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D2C91A8D5D3500DFED18 /* prlxTests.m */; };
+		AEB7D2D51A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB7D2D41A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.m */; };
+		AEB7D2D71A8D658D00DFED18 /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = AEB7D2D61A8D658D00DFED18 /* header.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE5962C11A8E8D5D00653D93 /* hw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hw.png; sourceTree = "<group>"; };
+		AEA062B81A8E7F9200EDF844 /* photo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo.png; sourceTree = "<group>"; };
 		AEB7D2AA1A8D5D3500DFED18 /* prlx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = prlx.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB7D2AE1A8D5D3500DFED18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB7D2AF1A8D5D3500DFED18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,9 @@
 		AEB7D2C31A8D5D3500DFED18 /* prlxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = prlxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB7D2C81A8D5D3500DFED18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEB7D2C91A8D5D3500DFED18 /* prlxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = prlxTests.m; sourceTree = "<group>"; };
+		AEB7D2D31A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewWithParallaxHeaderView.h; sourceTree = "<group>"; };
+		AEB7D2D41A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewWithParallaxHeaderView.m; sourceTree = "<group>"; };
+		AEB7D2D61A8D658D00DFED18 /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,8 @@
 				AEB7D2B21A8D5D3500DFED18 /* AppDelegate.m */,
 				AEB7D2B41A8D5D3500DFED18 /* ViewController.h */,
 				AEB7D2B51A8D5D3500DFED18 /* ViewController.m */,
+				AEB7D2D31A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.h */,
+				AEB7D2D41A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.m */,
 				AEB7D2B71A8D5D3500DFED18 /* Main.storyboard */,
 				AEB7D2BA1A8D5D3500DFED18 /* Images.xcassets */,
 				AEB7D2BC1A8D5D3500DFED18 /* LaunchScreen.xib */,
@@ -96,6 +107,9 @@
 		AEB7D2AD1A8D5D3500DFED18 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AEA062B81A8E7F9200EDF844 /* photo.png */,
+				AE5962C11A8E8D5D00653D93 /* hw.png */,
+				AEB7D2D61A8D658D00DFED18 /* header.png */,
 				AEB7D2AE1A8D5D3500DFED18 /* Info.plist */,
 				AEB7D2AF1A8D5D3500DFED18 /* main.m */,
 			);
@@ -201,6 +215,9 @@
 			files = (
 				AEB7D2B91A8D5D3500DFED18 /* Main.storyboard in Resources */,
 				AEB7D2BE1A8D5D3500DFED18 /* LaunchScreen.xib in Resources */,
+				AEA062B91A8E7F9200EDF844 /* photo.png in Resources */,
+				AEB7D2D71A8D658D00DFED18 /* header.png in Resources */,
+				AE5962C21A8E8D5D00653D93 /* hw.png in Resources */,
 				AEB7D2BB1A8D5D3500DFED18 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB7D2D51A8D5D9A00DFED18 /* TableViewWithParallaxHeaderView.m in Sources */,
 				AEB7D2B61A8D5D3500DFED18 /* ViewController.m in Sources */,
 				AEB7D2B31A8D5D3500DFED18 /* AppDelegate.m in Sources */,
 				AEB7D2B01A8D5D3500DFED18 /* main.m in Sources */,
@@ -412,6 +430,7 @@
 				AEB7D2CF1A8D5D3500DFED18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEB7D2D01A8D5D3500DFED18 /* Build configuration list for PBXNativeTarget "prlxTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				AEB7D2D21A8D5D3500DFED18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
